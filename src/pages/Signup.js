@@ -88,7 +88,7 @@ const Signup = () => {
       </div>
       <div className={styles.field}>
         <input
-          placeholder="Confirm password"
+          placeholder="password"
           type="password"
           required
           value={password}
@@ -97,7 +97,7 @@ const Signup = () => {
       </div>
       <div className={styles.field}>
         <input
-          placeholder="Password"
+          placeholder="ConfirmPassword"
           type="password"
           required
           value={confirmPassword}
